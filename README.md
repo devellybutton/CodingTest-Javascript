@@ -14,13 +14,14 @@
   - 원형 연결 리스트
 - [스택](./02-data-structures/03-stacks/README.md)
 - [큐](./02-data-structures/04-queues/README.md)
-- [해시 테이블](./02-data-structures/05-hash-tables/README.md)
-- [트리](./02-data-structures/06-trees/README.md)
+- [덱](./02-data-structures/05-deques/README.md)
+- [해시 테이블](./02-data-structures/06-hash-tables/README.md)
+- [트리](./02-data-structures/07-trees/README.md)
   - 이진 트리
   - 이진 검색 트리
   - 트리 순회 방법(전위, 중위, 후위, 레벨 순회)
-- [힙과 우선순위 큐](./02-data-structures/07-heaps/README.md)
-- [그래프](./02-data-structures/08-graphs/README.md)
+- [힙과 우선순위 큐](./02-data-structures/08-heaps/README.md)
+- [그래프](./02-data-structures/09-graphs/README.md)
   - 그래프 표현 방법(인접 행렬, 인접 리스트)
   - 방향/무방향 그래프
   - 가중치 그래프
