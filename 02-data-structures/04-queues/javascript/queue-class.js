@@ -1,4 +1,6 @@
 /**
+ * 클래스를 이용한 큐 구현
+ *
  * head: 큐의 맨 앞
  * tail: 새 항목이 들어갈 위치
  * 요소를 제거할 때는 그냥 head 인덱스만 증가시킴
@@ -13,11 +15,13 @@ class Queue {
     this.tail = 0;
   }
 
+  // 큐 뒤쪽에 요소 추가
   enqueue(item) {
     this.items[this.tail] = item;
     this.tail++;
   }
 
+  // 큐 앞쪽에서 요소 제거 및 반환
   dequeue() {
     if (this.isEmpty()) {
       return null;
@@ -29,6 +33,7 @@ class Queue {
     return item;
   }
 
+  // 큐가 비어있는지 확인
   isEmpty() {
     return this.head === this.tail;
   }

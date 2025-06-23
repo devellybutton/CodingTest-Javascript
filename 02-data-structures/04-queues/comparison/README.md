@@ -49,5 +49,10 @@ stack.pop()  # 삭제
 ----
 
 ## 요약
-- 파이썬: 스택은 리스트, 큐는 deque로 구현
-- 자바스크립트: 스택은 배열로 구현, 큐는 성능이 중요하면 클래스로 구현
+### 스택:
+- [`Python`](../python/queue-list.py): list 사용 - 파이썬에서는 리스트의 append()/pop()이 스택의 표준적인 구현
+- [`JavaScript`](../javascript/queue-class.js): 클래스 구현 - 객체지향적이고 명확한 인터페이스 제공
+
+### 큐:
+- [`Python`](../python/queue-deque.py): `collections.deque` 사용 - 양방향에서 O(1) 연산을 지원하는 파이썬의 표준 큐 구현
+- [`JavaScript`](../javascript/queue-class.js): 클래스 구현 (head/tail) - 일반 배열의 shift()는 O(n)이라 비효율적이므로
